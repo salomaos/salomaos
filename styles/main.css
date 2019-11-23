@@ -1,3 +1,40 @@
+/* Anotaions */
+
+/* 
+font-family: 'Calistoga', cursive;
+font-family: 'PT Sans', sans-serif;
+*/
+html {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+h1, h2, h3 {
+  font-family: 'Calistoga', cursive;
+}
+
 .container {
-  margin: 10rem;
+  margin: 0 2rem;
+}
+
+.main-title {
+  font-size: 1.5rem;
+  line-height: 1rem;
+}
+
+.main-menu {
+  font-weight: bold;
+  text-align: center;
+  /* font-size: 1.1rem; */
+}
+
+.main-menu a {
+  color: black;
+  text-decoration: none;
+}
+
+hr {
+  width: 90%;
+  margin: 2rem auto;
 }
